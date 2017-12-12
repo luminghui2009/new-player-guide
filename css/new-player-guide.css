@@ -1,0 +1,407 @@
+/*html{*/
+    /*overflow-x: hidden;*/
+    /*position: fixed;*/
+/*}*/
+body{
+   width:7.2rem !important;
+   overflow-x:hidden;
+}
+#header{
+    width:100%;
+    padding:0.72rem 0 0.63rem 0;
+    text-align:center;
+}
+.header_p1{
+    margin-bottom:0.11rem;
+}
+.header_p1>img{
+    width:3.92rem;
+    height:0.6rem;
+}
+.header_p2>img{
+    width:2.59rem;
+    height:.59rem;
+}
+/*打开方式步骤*/
+#open_mode .open_mode_title{
+    font-size:0.34rem;
+    color:#00ba85;
+    margin:0 auto;
+    text-align:center;
+    border:1px solid #00ba85;
+    border-radius:0.2rem;
+    width:3.82rem;
+    height:0.55rem;
+    line-height:.56rem;
+    margin-bottom:0.65rem;
+}
+#open_mode .operation_steps{
+    margin:0 0.37rem;
+    margin-bottom:.63rem;
+    height:0.59rem;
+    position:relative;
+}
+#open_mode .operation_steps li{
+    position:absolute;
+    top:50%;
+    transform: translate(0,-50%);
+    -webkit-transform: translate(0,-50%);
+}
+#open_mode .operation_steps .operation_steps_arrow>img{
+    width:.25rem;
+    height:.25rem;
+}
+#open_mode .operation_steps .operation_steps_txt{
+    font-size:.3rem;
+    color:#000;
+    line-height:.3rem;
+}
+.one{
+    width:.3rem;
+}
+.two{
+    width:.6rem;
+}
+.three{
+    width:.9rem;
+}
+.operation_steps li:nth-of-type(1){
+    left:0;
+}
+.operation_steps li:nth-of-type(2){
+    left:.53rem;
+}
+.operation_steps li:nth-of-type(3){
+    left:1.02rem;
+}
+.operation_steps li:nth-of-type(4){
+    left:1.77rem;
+}
+.operation_steps li:nth-of-type(5){
+    left:2.25rem;
+}
+.operation_steps li:nth-of-type(6){
+    left:3.01rem;
+}
+.operation_steps li:nth-of-type(7){
+    left:3.47rem;
+}
+.operation_steps li:nth-of-type(8){
+    left:4.25rem;
+}
+.operation_steps li:nth-of-type(9){
+    left:4.72rem;
+}
+.operation_steps li:nth-of-type(10){
+    left:5.77rem;
+}
+.operation_steps li:nth-of-type(11){
+    right:0;
+}
+#open_mode .open_btn{
+    color:#fff;
+    width:5.4rem;
+    height:.8rem;
+    font-size:.32rem;
+    background-color:#00ba85;
+    text-align:center;
+    line-height:.8rem;
+    margin:0 auto;
+    border-radius:.4rem;
+    margin-bottom:.77rem;
+}
+/*小米手机示意操作*/
+#demonstration .demonstration_title{
+    font-size:.34rem;
+    color:#00ba85;
+    width:3.82rem;
+    height:.55rem;
+    line-height:0.56rem;
+    margin:0 auto;
+    text-align:center;
+    border:1px solid #00ba85;
+    border-radius:.2rem;
+    font-weight: 700;
+}
+#demonstration .demonstration_content{
+    position:relative;
+}
+.step1-pic{
+    width: 2.31rem;
+    height:4.1rem;
+    position:absolute;
+    top:.79rem;
+    right:.58rem;
+}
+.step1-pic1{
+    width: 1.51rem;
+    height:1.67rem;
+    position:absolute;
+    top:1.91rem;
+    right:.71rem;
+}
+.step1-icon{
+    width:.51rem;
+    height:.46rem;
+    line-height:.46rem;
+    background:url('../images/step1-icon.png') no-repeat;
+    background-size:cover;
+    color:#fff;
+    position:absolute;
+    top:.95rem;
+    right:3.13rem;
+    text-align:center;
+}
+.step1-txt{
+    font-size:.26rem;
+    color:#000;
+    position:absolute;
+    top:1.74rem;
+    right:3.13rem;
+    font-weight:600;
+}
+.step1-pic2{
+    width:1.96rem;
+    height:4.77rem;
+    position:absolute;
+    top:1.89rem;
+    left:.37rem;
+}
+.step2{
+    position:relative;
+    top:3.9rem;
+    left:.57rem;
+    width:6.63rem;
+}
+.step2-pic{
+    width:2.3rem;
+    height:4.1rem;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.step2-pic1{
+    position:absolute;
+    width:1.51rem;
+    height:1.67rem;
+    top:1.27rem;
+    left:-0.11rem;
+}
+.step2-icon{
+    width:.51rem;
+    height:.46rem;
+    line-height:.46rem;
+    background:url('../images/step2-icon.png') no-repeat;
+    background-size:cover;
+    color:#fff;
+    position:absolute;
+    top:1.88rem;
+    left:2.54rem;
+    text-align:center;
+}
+.step2-txt{
+    font-size:.26rem;
+    color:#000;
+    position:absolute;
+    top:2.61rem;
+    left:2.54rem;
+    font-weight:600;
+}
+.step2-pic2{
+    width:3.23rem;
+    height:3.54rem;
+    position:absolute;
+    top:2.74rem;
+    left:3rem;
+}
+.step3{
+    position:relative;
+    top:7.62rem;
+    left:4.31rem;
+    width:2.89rem;
+}
+.step3-pic{
+    width:2.3rem;
+    height:4.1rem;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.step3-pic1{
+    position:absolute;
+    width: 1.51rem;
+    height: 1.67rem;
+    top: 0.6rem;
+    left:0.05rem;
+}
+.step3-icon{
+    width:.51rem;
+    height:.46rem;
+    line-height:.46rem;
+    background:url('../images/step1-icon.png') no-repeat;
+    background-size:cover;
+    color:#fff;
+    position:absolute;
+    top:1.63rem;
+    left:-0.76rem;
+    text-align:center;
+}
+.step3-txt{
+    font-size:.26rem;
+    color:#000;
+    position:absolute;
+    top:2.39rem;
+    left:-2.27rem;
+    font-weight:600;
+    text-align:right;
+}
+.step4{
+    position:relative;
+    top:11.55rem;
+    left:.56rem;
+    width:6.64rem;
+}
+.step3-pic2{
+    position:absolute;
+    width:1.96rem;
+    height:3.83rem;
+    top:2.52rem;
+    left:-3.94rem;
+}
+.step4-pic{
+    width:2.3rem;
+    height:4.1rem;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.step4-pic1{
+    position:absolute;
+    width:1.51rem;
+    height:1.67rem;
+    top:1.78rem;
+    left:-0.05rem;
+}
+.step4-icon{
+    width:.51rem;
+    height:.46rem;
+    line-height:.46rem;
+    background:url('../images/step2-icon.png') no-repeat;
+    background-size:cover;
+    color:#fff;
+    position:absolute;
+    top:1.53rem;
+    left:2.55rem;
+    text-align:center;
+}
+.step4-txt{
+    font-size:.26rem;
+    color:#000;
+    position:absolute;
+    top:2.29rem;
+    left:2.55rem;
+    font-weight:600;
+}
+.step4-pic2{
+    position:absolute;
+    width:3.23rem;
+    height:3.73rem;
+    top:2.42rem;
+    left:3.01rem;
+}
+.step5{
+    position:relative;
+    top:15.41rem;
+    left:4.32rem;
+    width:2.88rem;
+}
+.step5-pic{
+    width:2.3rem;
+    height:4.1rem;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.step5-pic1{
+    position:absolute;
+    width:1.51rem;
+    height:1.67rem;
+    top:0.95rem;
+    left:-0.05rem;
+}
+.step5-icon{
+    width:.51rem;
+    height:.46rem;
+    line-height:.46rem;
+    background:url('../images/step1-icon.png') no-repeat;
+    background-size:cover;
+    color:#fff;
+    position:absolute;
+    top:1.42rem;
+    left:-0.76rem;
+    text-align:center;
+}
+.step5-pic3{
+    position:absolute;
+    width:0.57rem;
+    height:0.63rem;
+    top:1.92rem;
+    left:1.82rem;
+}
+.step5-txt{
+    font-size:.26rem;
+    color:#000;
+    position:absolute;
+    top:2.15rem;
+    left:-3.46rem;
+    font-weight:600;
+    text-align:right;
+}
+.step5-pic2{
+    width:1.96rem;
+    height:3.96rem;
+    position:absolute;
+    top:2.28rem;
+    left:-3.94rem;
+}
+.step6{
+    position:relative;
+    top:19.21rem;
+    left:.57rem;
+    width:6.63rem;
+}
+.step6-pic2{
+    position:absolute;
+    width:3.23rem;
+    height:3.97rem;
+    top:2.44rem;
+    left:-3.57rem;
+}
+.step7{
+    position:relative;
+    top:22.9rem;
+    left:4.32rem;
+    height:4.7rem;
+    width:2.4rem;
+}
+.step7-icon{
+    width:.51rem;
+    height:.46rem;
+    line-height:.46rem;
+    background:url('../images/step1-icon.png') no-repeat;
+    background-size:cover;
+    color:#fff;
+    position:absolute;
+    top:1.82rem;
+    left:-0.76rem;
+    text-align:center;
+}
+.step7-txt{
+    font-size:.26rem;
+    color:#000;
+    position:absolute;
+    top:2.6rem;
+    left:-0.75rem;
+    font-weight:600;
+    text-align:right;
+}

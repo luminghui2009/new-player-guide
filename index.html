@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link rel="stylesheet" href="css/reset.min.css"/>
+    <link rel="stylesheet" href="css/new-player-guide.css">
+    <title>创建快捷方式新手引导</title>
+
+</head>
+<body>
+    <header id="header">
+        <ul>
+            <li class="header_p1"><img src="images/shortcut.png" alt=""></li>
+            <li class="header_p2"><img src="images/newPlayer-guide.png" alt=""></li>
+        </ul>
+    </header>
+    <main>
+        <section id="open_mode">
+            <div class="open_mode_title">常规开启方式</div>
+            <ul class="operation_steps">
+                <li class="operation_steps_txt one">设置</li>
+                <li class="operation_steps_arrow"><img src="images/arrow1.png"/></li>
+                <li class="operation_steps_txt two">更多应用</li>
+                <li class="operation_steps_arrow"><img src="images/arrow1.png"/></li>
+                <li class="operation_steps_txt two">找到应用</li>
+                <li class="operation_steps_arrow"><img src="images/arrow1.png"/></li>
+                <li class="operation_steps_txt two">权限管理</li>
+                <li class="operation_steps_arrow"><img src="images/arrow1.png"/></li>
+                <li class="operation_steps_txt three">桌面快捷方式</li>
+                <li class="operation_steps_arrow"><img src="images/arrow1.png"/></li>
+                <li class="operation_steps_txt one">允许</li>
+            </ul>
+            <div class="open_btn">开启</div>
+        </section>
+        <section id="demonstration">
+            <p class="demonstration_title">小米手机示意操作</p>
+            <div class="demonstration_content">
+                <div class="step1" style="position:relative;">
+                    <img src="images/step1-pic.png" class="step1-pic" />
+                    <img src="images/step1-pic1.png" class="step1-pic1" />
+                    <span class="step1-icon">1&nbsp;</span>
+                    <span class="step1-txt">打开手机【设置】</span>
+                    <img src="images/step1-pic2.png" class="step1-pic2"/>
+                </div>
+                <div class="step2" >
+                    <img src="images/step2-pic.png" class="step2-pic"/>
+                    <img src="images/step2-pic1.png" class="step2-pic1" />
+                    <span class="step2-icon">&nbsp;2</span>
+                    <span class="step2-txt">下滑，点击【更多应用】</span>
+                    <img src="images/step2-pic2.png" class="step2-pic2"/>
+                </div>
+                <div class="step3">
+                    <img src="images/step3-pic.png" class="step3-pic"/>
+                    <img src="images/step3-pic1.png" class="step3-pic1" />
+                    <span class="step3-icon">3&nbsp;</span>
+                    <span class="step3-txt">下滑找到当前应用<br>如【全民点游】</span>
+                    <img src="images/step3-pic2.png" class="step3-pic2"/>
+                </div>
+                <div class="step4">
+                    <img src="images/step4-pic.png" class="step4-pic"/>
+                    <img src="images/step4-pic1.png" class="step4-pic1" />
+                    <span class="step4-icon">&nbsp;4</span>
+                    <span class="step4-txt">下滑点击&nbsp;&nbsp;【权限管理】</span>
+                    <img src="images/step4-pic2.png" class="step4-pic2"/>
+                </div>
+                <div class="step5">
+                    <img src="images/step5-pic.png" class="step5-pic"/>
+                    <img src="images/step5-pic1.png" class="step5-pic1" />
+                    <img src="images/step5-pic3.png" class="step5-pic3">
+                    <span class="step5-icon">5&nbsp;</span>
+                    <span class="step5-txt">下滑,点击【桌面快捷方式】</span>
+                    <img src="images/step5-pic2.png" class="step5-pic2"/>
+                </div>
+                <div class="step6">
+                    <img src="images/step6-pic.png" class="step2-pic"/>
+                    <img src="images/step6-pic1.png" class="step2-pic1" />
+                    <span class="step2-icon">&nbsp;6</span>
+                    <span class="step2-txt">点击【允许】</span>
+                    <img src="images/step6-pic2.png" class="step2-pic2"/>
+                </div>
+                <div class="step7">
+                    <img src="images/step7-pic.png" class="step5-pic"/>
+                    <img src="images/step5-pic1.png" class="step5-pic1" />
+                    <img src="images/step7-pic2.png" class="step5-pic3">
+                    <span class="step7-icon">7&nbsp;</span>
+                    <span class="step7-txt">完成</span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/rem.js"></script>
+    <script>
+//        document.body.style.height=window.innerHeight+'px';
+//        document.documentElement.style.overflowX='hidden';
+//        document.body.style.overflowX='hidden';
+
+
+        console.log(getComputedStyle(document.body,null)['overflowX']);
+    </script>
+</body>
+</html>
